@@ -1,0 +1,49 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+
+    component:
+
+    layout:
+      css/layout.css: {}
+    theme:
+      css/aos.css: {}
+      css/bootstrap.css: {}
+      fonts/font-awesome.css: {}
+      css/volt.css: {}
+      css/responsive_375.css: {}
+      css/responsive_768.css: {}
+      css/responsive_1200.css: {}
+  js:
+    js/aos.js: {}
+    js/bootstrap.min.js: {}
+    js/volt.js: {}
+    js/jquery.flexslider.js: {}
+    js/jquery-ui.js: {}
+  dependencies:
+    - core/jquery
+messages:
+  version: VERSION
+  css:
+    component:
+      css/components/messages.css: { preprocess: false }
+
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color
+
+maintenance_page:
+  version: VERSION
+  css:
+    theme:
+      css/maintenance-page.css: {}
+  dependencies:
+    - system/maintenance
+    - volt/global-styling

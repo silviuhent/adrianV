@@ -1,0 +1,86 @@
+
+  <div id="header_top">
+    <div class="content container">
+      <div id="block-social" class="visible-sm-block visible-md-block visible-lg-block pull-left">
+        {{ page.top_social}}
+      </div>
+      <div id="block-comutatorlimbi" class="pull-right">
+        {{ page.top_contact}}
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default navbar-fixed-top header_top container">
+    <div class="container-fluid">
+      <div class="content">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </button>
+        {{ page.logo }}
+      </div>
+      <div id="navbar" class="navbar-collapse collapse main_menu">
+        {{ page.main_menu }}
+
+
+        <div id="alege_electric" class="submenu">
+          <div class="wrap_menu ">
+            <div class="pull-right">
+              <button type="button" id="close_alege_electric" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            {{ page.ultimenu_main_alege_electric }}
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div id="produse" class="submenu">
+          <div class="wrap_menu ">
+            <div class="pull-right">
+              <button type="button" id="close_produse" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            {{ page.ultimenu_main_produse }}
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div id="centru_de_informare" class="submenu">
+          <div class="wrap_menu ">
+            <div class="pull-right">
+              <button type="button" id="close_centru_de_informare" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            {{ page.ultimenu_main_centrul_de_informare }}
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div id="despre_noi" class="submenu">
+          <div class="wrap_menu ">
+            <div class="pull-right">
+              <button type="button" id="close_despre_noi" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            {{ page.ultimenu_main_despre_noi }}
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <div id="search_block" class="submenu">
+          <div class="wrap_menu ">
+            <div class="pull-right">
+              <button type="button" id="close_search" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            {{ page.ultimenu_contact_search }}
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div><!--/.nav-collapse -->
+
+      </div>
+
+    </div>
+  </nav>

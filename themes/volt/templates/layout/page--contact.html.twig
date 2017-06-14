@@ -1,0 +1,16 @@
+<div class="page_volt container-fluid" id="page_layout">
+  {% include directory ~ '/templates/layout/header.html.twig' %}
+  <div class="content_wrapper">
+    <div class="container-fluid">
+      <iframe id="contact_map" src="http://maps.google.com/maps?q=12.927923,77.627108&z=15&output=embed"></iframe>
+      <div class="messages alert alert-dismissible" role="alert">
+        {{ page.highlighted }}
+      </div>
+      <div class="container contact_page">
+        <h1>{{ page.title }}</h1>
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+  {% include directory ~ '/templates/layout/footer.html.twig' %}
+</div>

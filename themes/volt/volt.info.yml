@@ -1,0 +1,56 @@
+# This theme is marked as @internal. It is intended to evolve and change over
+# minor releases.
+# Change record https://www.drupal.org/node/2673014.
+# As the UI of Drupal improves between minor versions, the mark up and assets
+# in the volt theme will change. The volt theme is not backwards
+# compatible. If you wish to modify the output or assets of volt you can:
+# 1. Copy the whole of volt and rename it as your own theme. You will need to
+# manually manage your own updates if you want to stay up to date with volt's
+# bug fixes and feature support.
+#
+# 2. Sub-theme volt. This is only recommended if you want to make minor
+# tweaks and understand that volt could break your modifications as it
+# changes.
+name: Volt
+type: theme
+base theme: classy
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+package: Core
+# version: VERSION
+# core: 8.x
+libraries:
+  - volt/global-styling
+ckeditor_stylesheets:
+  - css/base/elements.css
+  - css/components/captions.css
+  - css/components/table.css
+  - css/components/text-formatted.css
+regions:
+  top_social: Top Region Social
+  top_contact: Contact Area
+  logo: Logo
+  main_menu: Main Navigation
+  ultimenu_main_alege_electric: 'Ultimenu:main: Alege electric'
+  ultimenu_main_produse: 'Ultimenu:main: Produse'
+  ultimenu_main_centrul_de_informare: 'Ultimenu:main: Centrul de informare'
+  ultimenu_main_despre_noi: 'Ultimenu:main: Despre noi'
+  ultimenu_contact_search: 'Ultimenu:contact: Search'
+  page_bottom: 'Page Top'
+  highlighted: 'System Messages'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Footer Newsletter'
+  featured_bottom_second: 'Social menu footer'
+  footer_first: 'Footer First Menu'
+  footer_second: 'Footer Second Menu'
+  footer_third: 'Footer Contact'
+  footer_fourth: 'Footer Bottom Menus'
+  footer_fifth: 'Copyright'
+
+# Information added by Drupal.org packaging script on 2016-11-16
+version: '8.2.3'
+core: '8.x'
+project: 'drupal'
+datestamp: 1479322547

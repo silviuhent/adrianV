@@ -1,0 +1,21 @@
+<div class="page_volt incarca_electric container-fluid" id="page_layout">
+  {% include directory ~ '/templates/layout/header.html.twig' %}
+  <div class="content_wrapper">
+    <div class="container-fluid">
+      <div class="messages alert alert-dismissible" role="alert">
+        {{ page.highlighted }}
+      </div>
+      <div class="content_content incarca_electric">
+        <h1>{{ page.title }}</h1>
+        <div class="container">
+          <div class="content_content">
+            <div class="inner_content">
+              {{ page.content }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include directory ~ '/templates/layout/footer.html.twig' %}
+</div>
